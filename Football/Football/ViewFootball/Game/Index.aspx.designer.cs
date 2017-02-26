@@ -7,9 +7,9 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Football {
+namespace Football.ViewFootball.Game {
     
     
-    public partial class _Default {
+    public partial class Index {
     }
 }

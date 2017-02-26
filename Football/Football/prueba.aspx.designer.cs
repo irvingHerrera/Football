@@ -10,6 +10,6 @@
 namespace Football {
     
     
-    public partial class _Default {
+    public partial class prueba {
     }
 }

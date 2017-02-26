@@ -41,6 +41,15 @@ namespace Football
                     Path = "~/Scripts/respond.min.js",
                     DebugPath = "~/Scripts/respond.js",
                 });
+
+            bundles.Add(new ScriptBundle("~/bundles/Team").Include(
+                            "~/Scripts/Football/Team.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/Game").Include(
+                            "~/Scripts/Football/Game.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/Player").Include(
+                            "~/Scripts/Football/Team.js"));
         }
     }
 }
